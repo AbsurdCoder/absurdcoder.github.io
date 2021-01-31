@@ -122,7 +122,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #4a77ca !important;
 		}
 
 	strong, b {
@@ -1789,9 +1789,9 @@ input, select, textarea {
 		line-height: 1.5em;
 	}
 
-	header.major h2 {
-		color: #4acaa8;
-		font-size: 3.5em;
+	header.major h3 {
+		color: #777;
+		font-size: 2.5em;
 	}
 
 		header.major h2 + p {
@@ -1853,7 +1853,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #4a77ca;
 		}
 
 	select {
@@ -1958,7 +1958,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: #4a77ca;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2407,7 +2407,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #4acaa8;
+				background: #4a77ca;
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2623,7 +2623,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #4acaa8;
+			background-color: #4a77ca;
 			color: #ffffff !important;
 		}
 
@@ -2705,7 +2705,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background: #4a77ca;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2794,7 +2794,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px #4a77ca;
 					display: block;
 					padding: 0;
 				}
@@ -2813,7 +2813,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #4acaa8 !important;
+							color: #4a77ca !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -3081,7 +3081,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: #4a77ca;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
@@ -3349,7 +3349,7 @@ border-radius: 50px;
 	left:5px;
 	widows: 80%;
 	height:50% ;
-	background: linear-gradient(to left ,#4acaa8,#4acaa8);
+	background: linear-gradient(to left ,#4a77ca,#4a77ca);
 	border-radius: 50px;
 	animation: bar 4s ease;
 
@@ -3362,15 +3362,43 @@ border-radius: 50px;
 
 }
 .bar:nth-child(2) span::before{
-	width:80%
+	width:85%
 }
 .bar:nth-child(3) span::before{
 	width:80%
 }
 .bar:nth-child(4) span::before{
-	width:60%
+	width:78%
 }
 .bar:nth-child(5) span::before{
+	width:75%
+}
+.bar:nth-child(6) span::before{
 	width:60%
 }
+.bar:nth-child(7) span::before{
+	width:60%
+}
+.bar:nth-child(8) span::before{
+	width:50%
+}
 
+#five {
+	padding-left: 30%;
+	padding-right: 20%;
+}
+
+#zero {
+	min-height: 100%; 
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('../../images/banner.jpg');
+        background-repeat:no-repeat;
+        background-size: cover;
+}
+
+#one {
+	padding: 5% 0% 5% 12%;
+}
