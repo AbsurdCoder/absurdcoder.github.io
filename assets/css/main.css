@@ -1789,8 +1789,8 @@ input, select, textarea {
 		line-height: 1.5em;
 	}
 
-	header.major h3 {
-		color: #777;
+	header.major p {
+		color:black;
 		font-size: 2.5em;
 	}
 
@@ -3388,17 +3388,47 @@ border-radius: 50px;
 	padding-right: 20%;
 }
 
-#zero {
+#one {
 	min-height: 100%; 
-        background-attachment: scroll;
+        background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-image: url('../../images/banner.jpg');
         background-repeat:no-repeat;
-        background-size: cover;
+		background-size: cover;
+		height: 100vh;
 }
 
-#one {
-	padding: 5% 0% 5% 12%;
+#two {
+	height: 100vh;
 }
+
+/* #one {
+	padding: 5% 0% 5% 12%;
+} */
+
+#toplev {
+	padding: 27% 0% 0% 55%;
+	font-family: "Lato", sans-serif;
+		font-size: 24pt;
+		font-weight: 600;
+		line-height: 1.75em;
+}
+
+.blinker {
+	animation: blink 1s steps(1, end) infinite;
+	color: black;
+  }
+  
+  @keyframes blink {
+	0% {
+	  opacity: 1;
+	}
+	50% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }

@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
-<body class="is-preload">
+<body class="is-preload"  onload="writeMyself()">
 
 	<!-- Header -->
 	<section id="header">
@@ -34,28 +34,32 @@
 		</footer>
 	</section>
 
+	<script>
+		var txt = "A glimpse of my Professional Journey";
+		var speed = 50;
+		var i = 0;
+
+		function writeMyself() {
+			if (i < txt.length) {
+				document.getElementById("toplev").innerHTML += txt.charAt(i);
+				i++;
+				setTimeout(writeMyself, speed);
+			}
+		}
+	</script>
+
 	<!-- Wrapper -->
 	<div id="wrapper">
 
 		<!-- Main -->
 		<div id="main">
 
-			<section id="zero">
-				<div class="container">
-					<div class="image main" data-position="center">
-					
-					</div>
-				</div>
-			</section>
-			
-			<!-- One -->
 			<section id="one">
-			
+				<div class="container">
 					<header class="major">
-						<h3>A glimpse to my Professional Journey</h3>
-						<p><br /></p>
+						<p id="toplev"></p>
 					</header>
-					<p></p>
+				</div>
 			</section>
 
 			<!-- Two -->
